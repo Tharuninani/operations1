@@ -1,0 +1,287 @@
+1.QUESTION:
+
+Write a program to get 2 numbers from the user and calculate their sum and difference using '+' and '-' operators respectively.
+
+Print the corresponding sum and difference of the numbers as output in the console.
+
+Input format:
+
+First input: an integer
+
+Second input: an integer
+
+Output format:
+
+First output will be the sum of two integers
+
+Second output will be the difference of two integers
+
+Sample Input:
+
+55
+
+34
+
+Sample Output:
+
+89
+
+21
+
+Code:
+
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+
+2.Question
+Write a program to get 2 numbers from the user and calculate their product, quotient and remainder using '*', '/' and '%' operators respectively.
+
+Print the corresponding product, quotient and remainder of the numbers as output in the console.
+
+Input format:
+
+First input: an integer
+
+Second input: an integer
+
+Output format:
+
+The first output will be the product of two integers
+
+The second output will be the quotient
+
+The third output will be the remainder
+
+Sample Input:
+50
+
+10
+
+Sample Output:
+
+500
+
+5
+
+0
+
+Code:
+
+a=int(input())
+b=int(input())
+print(a*b)
+print(int(a/b))
+print((-(a%b)))
+
+3.Question
+Write a program to get 2 numbers from the user and swap their values without any loss of data. You can make use of additional 3rdvariable for swapping.
+
+Print the corresponding swapped values of the two numbers as output in the console.
+
+Input format:
+First input: an integer
+
+Second input: an integer
+
+Output format:
+
+The output will be integers(swapped values)
+
+Sample Input:
+
+20
+
+10
+
+Sample Output:
+
+10
+
+20
+
+Code:
+a=int(input())
+b=int(input())
+print(b,a)
+
+4.Question
+Write a program to swap two values without the use of 3rd variable.
+
+Input format:
+
+First input: an integer
+
+Second input: an integer
+
+Output format:
+
+The output will be integers(swapped values)
+Sample Input:
+
+10
+
+20
+
+Sample Output:
+
+20
+
+10
+
+Code:
+a=int(input())
+b=int(input())
+print(b,a)
+
+5.Question
+A teacher wants to compute the average of 5 students in her class. Write a program to help her to find the average.
+The average is the sum of all the numbers, then divided by the total numbers.
+
+Input format:
+
+First input: 1st student mark in float
+
+Second input: 2nd student mark in float
+
+Third input: 3rd student mark in float
+
+Fourth input:4th student mark in float
+
+Fifth input: 5th student mark in float
+
+Output format:
+
+The output value should be in float with 2 decimal places.
+
+Sample Input:
+
+10 
+
+20
+
+30
+
+40
+
+50
+
+Sample Output:
+
+30.00
+
+Code:
+a=float(input())
+b=float(input())
+c=float(input())
+d=float(input())
+e=float(input())
+h=(a+b+c+d+e)/5
+print("%.2f"%h)
+
+6.Question
+Sheela has three things in her bag. She wants to compute the area of 3 things but 3 things are in different shapes. The three things are in square shape, rectangular shape, and circular shape respectively. 
+
+Write a program to help Sheela to calculate the area of different shapes.
+
+Input format:
+First input: a side of a square in integer
+
+Second input: length of a rectangle in integer
+
+Third input: breadth of a rectangle in integer
+
+Fourth input: radius of a circle in float
+
+Output format:
+
+The first output should be the area of a square in integer
+
+The second output should be the area of a rectangle in integer
+
+The third output should be the area of a circle in float with 2 decimal places
+
+Sample Input:
+
+5
+
+5
+
+4
+
+2.0
+
+Sample Output:
+
+25
+
+20
+
+12.56
+
+Code:
+a=int(input())
+b=int(input())
+c=int(input())
+d=float(input())
+print(a*a)
+print(b*c)
+print(3.14*d*d)
+
+7.Question
+pow() function is used to calculate the power of any base and it is defined in math header file. Write a program to read X as the base and N as the power and calculate the result (X^N - X to the power of N).
+
+Input format:
+
+The first line containing integer denotes the base(X)
+
+The second line containing integer denotes the power(N)
+
+Output format:
+
+Print the power of a number
+
+Sample Input:
+
+2
+
+3
+
+Sample Output:
+
+8
+
+Code:
+import math
+a=int(input())
+b=int(input())
+print(int(math.pow(a,b)))
+
+9.Question
+Alice was bored that day,so she was sitting on the riverbank .Suddenly  she notices a talking, White Rabbit with a pocket watch .It ran fast,and she followed it, down a rabbit hole .She fell into the hole and found a magical wonderland with dark trees, beautiful flowers.She found many ways numbered from 1,2,3,........18.she was confused which is the right way that will lead her to her home. She found a cute bird, standing in one of the tree. Alice asked the bird the way to go back to her home.The bird said a two digit number( say 23 ) and asked her to find the sum of its digits (2+3=5) and that numbered way will lead her to her home.Alice was already confused, so pls help Alice in finding the route to her home....
+
+Input Format:
+
+Input consists of an integer corresponding to the 2-digit number.
+
+Output Format:
+
+Output consists of an integer corresponding to the sum of its digits. Refer sample input and output for formatting specifications.
+
+[All text in bold corresponds to input and the rest corresponds to output]
+
+SAMPLE INPUT OUTPUT :
+
+23
+
+Alice must go in path-5
+
+Code:
+import math
+a=int(input())
+b=(a/10)+(a%10)
+print("Alice must go in path-",math.floor(b))
+
+10.Question
+
